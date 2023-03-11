@@ -50,6 +50,9 @@ gem 'bootsnap', require: false
 
 gem 'rails-controller-testing'
 
+# authentication gem
+gem 'devise'
+
 gem 'htmlbeautifier'
 
 # Use Sass to process CSS
