@@ -53,7 +53,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 blog_app_rails <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **blog_app_rails** is the person blog app created in Rails framework
 
@@ -149,10 +148,6 @@ To run tests, run the following command:
 ```
 
 
-### Deployment
-
-You can deploy this project using:
-
 <!--
 Example:
 
@@ -179,7 +174,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Create A blog post**
 - [ ] **Add comment to blog post**
