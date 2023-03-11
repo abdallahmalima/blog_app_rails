@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe 'Posts', type: :request do
- 
   describe 'GET /show' do
     let(:user) { User.create!(name: 'Alice', post_counter: 0) }
     let(:post) do

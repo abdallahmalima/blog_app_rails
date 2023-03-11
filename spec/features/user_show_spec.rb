@@ -30,7 +30,7 @@ RSpec.describe 'User index page', type: :feature do
 
     visit user_path(user1)
 
-     expect(page).to have_css('.post', count: 3)
+    expect(page).to have_css('.post', count: 3)
   end
 
   it 'dispaly users posts button' do
@@ -46,7 +46,6 @@ RSpec.describe 'User index page', type: :feature do
     link = find('article h3 a', match: :first)
     link.click
     expect(current_path).to eq(user_post_path(user1, post1))
-
   end
 
   it 'redirects to the user post index page when see all posts is clicked' do
