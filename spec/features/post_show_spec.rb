@@ -16,7 +16,7 @@ RSpec.describe 'User index page', type: :feature do
   end
 
   it 'display author name' do
-    comments = create_list(:comment, 3, author: user1, post: post1)
+    create_list(:comment, 3, author: user1, post: post1)
     visit user_post_path(user1, post1)
     expect(page).to have_content(post1.author.name)
   end
