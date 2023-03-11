@@ -48,6 +48,8 @@ gem 'rails-controller-testing'
 
 gem 'htmlbeautifier'
 
+gem 'sassc', '~> 2.0'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
