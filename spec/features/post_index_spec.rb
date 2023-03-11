@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'User index page', type: :feature do
+  # posts index page integration tests
   let!(:user1) { create(:user, name: 'John Doe', photo: 'clement-m-F_-0BxGuVvo-unsplash.jpg') }
   let!(:post1) { create(:post, author: user1, title: 'Post 1') }
   before { visit user_posts_path(user1) }
