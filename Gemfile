@@ -29,6 +29,9 @@ gem 'stimulus-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
+gem 'devise'
+gem 'sassc'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
@@ -43,6 +46,10 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
+
+gem 'rails-controller-testing'
+
+gem 'htmlbeautifier'
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -74,6 +81,7 @@ group :test do
 end
 
 group :development, :test do
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'shoulda-matchers'
 end
